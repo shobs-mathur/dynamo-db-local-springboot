@@ -1,0 +1,33 @@
+logging:
+    level:
+        root: INFO
+        com.amazonaws.xray.strategy: "OFF"
+        javax.net.ssl: "OFF"
+        sun.security.ssl: "OFF"
+        org.apache: WARN
+        org.springframework.web.filter.CommonsRequestLoggingFilter: INFO
+        org.springframework.boot.context.embedded:
+                tomcat.TomcatEmbeddedServletContainer: INFO
+                undertow.UndertowEmbeddedServletContainer: INFO
+        org.apache.http.client.protocol.ResponseProcessCookies: ERROR
+    pattern:
+        console: "%level [%thread] %logger{36}.%method %replace(%message){'\n','\r'} %replace(%exception){'\n','\r'}%nopex%n"
+        file: "%d{yyyy-MM-dd HH:mm:ss} %-5level [%thread] %logger{36} - %message%n"
+
+server:
+    port: 8023
+    servlet.context-path: /
+
+cloud:
+    aws:
+        stack.auto: false
+        region.static: eu-west-1
+
+spring:
+    componentScan:
+        basePackages: com.tymebank.microservices.customercontrols
+    application:
+        name: customer-controls-service
+
+AWS_ACCESS_KEY_ID: fake
+AWS_SECRET_KEY: fake
