@@ -1,4 +1,4 @@
-package shobs.github.dynamodblocalspringboot;
+package shobs.github.awsspringboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

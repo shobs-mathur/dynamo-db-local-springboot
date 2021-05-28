@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  dynamodb:
+    image: amazon/dynamodb-local
+    hostname: dynamodb-local
+    container_name: dynamodb-local
+    ports:
+      - "8001:8000"
+
+  dynamodb-local-springboot:
+    image: dynamodb-local-springboot
+    hostname: dynamodb-local-springboot
+    restart: always
+    ports:
+      - "8023:8023"

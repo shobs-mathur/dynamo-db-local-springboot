@@ -1,0 +1,13 @@
+Resources:
+  SNSTopicSBWithoutSQS:
+    Type: AWS::SNS::Topic
+    Properties:
+      TopicName: springboot-sns-without-sqs
+      DisplayName: springboot-sns-without-sqs
+
+  SNSTopicSBWithoutSQSHttpSubscription:
+    Type: AWS::SNS::Subscription
+    Properties:
+      Endpoint: http://localhost:8024/springboot-sns-without-sqs
+      Protocol: sqs
+      TopicArn: !Ref SNSTopicSBWithoutSQS

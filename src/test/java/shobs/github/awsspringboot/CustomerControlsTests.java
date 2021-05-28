@@ -1,4 +1,4 @@
-package com.tymebank.microservices.customercontrols;
+package shobs.github.awsspringboot;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

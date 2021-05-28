@@ -15,7 +15,7 @@ logging:
         file: "%d{yyyy-MM-dd HH:mm:ss} %-5level [%thread] %logger{36} - %message%n"
 
 server:
-    port: 8023
+    port: 8024
     servlet.context-path: /
 
 cloud:
@@ -25,9 +25,9 @@ cloud:
 
 spring:
     componentScan:
-        basePackages: com.tymebank.microservices.customercontrols
+        basePackages: shobs.github
     application:
-        name: customer-controls-service
+        name: sns-springboot
 
 AWS_ACCESS_KEY_ID: fake
 AWS_SECRET_KEY: fake
