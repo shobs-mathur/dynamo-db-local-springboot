@@ -15,7 +15,7 @@ logging:
         file: "%d{yyyy-MM-dd HH:mm:ss} %-5level [%thread] %logger{36} - %message%n"
 
 server:
-    port: 8024
+    port: 8201
     servlet.context-path: /
 
 cloud:
