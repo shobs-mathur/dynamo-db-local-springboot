@@ -15,7 +15,7 @@ logging:
         file: "%d{yyyy-MM-dd HH:mm:ss} %-5level [%thread] %logger{36} - %message%n"
 
 server:
-    port: 8201
+    port: 8202
     servlet.context-path: /
 
 cloud:
@@ -29,5 +29,5 @@ spring:
     application:
         name: sns-springboot
 
-AWS_ACCESS_KEY_ID: fake
-AWS_SECRET_KEY: fake
+AWS_ACCESS_KEY_ID: foo
+AWS_SECRET_KEY: bar
