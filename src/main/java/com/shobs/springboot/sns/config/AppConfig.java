@@ -1,4 +1,4 @@
-package shobs.github.awsspringboot.config;
+package com.shobs.springboot.sns.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.context.annotation.Bean;

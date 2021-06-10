@@ -1,4 +1,4 @@
-package shobs.github.awsspringboot;
+package com.shobs.springboot.sns;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

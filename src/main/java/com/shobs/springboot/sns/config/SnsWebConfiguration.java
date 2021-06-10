@@ -1,4 +1,4 @@
-package shobs.github.awsspringboot.config;
+package com.shobs.springboot.sns.config;
 
 import com.amazonaws.services.sns.AmazonSNS;
 import org.springframework.beans.factory.annotation.Autowired;

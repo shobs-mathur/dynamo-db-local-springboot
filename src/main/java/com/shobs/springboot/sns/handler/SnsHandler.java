@@ -1,4 +1,4 @@
-package shobs.github.awsspringboot.handler;
+package com.shobs.springboot.sns.handler;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

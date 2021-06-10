@@ -1,4 +1,4 @@
-package shobs.github.awsspringboot;
+package com.shobs.springboot.sns;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

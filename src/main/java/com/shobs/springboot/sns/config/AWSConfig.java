@@ -1,4 +1,4 @@
-package shobs.github.awsspringboot.config;
+package com.shobs.springboot.sns.config;
 
 import com.amazonaws.auth.AWSStaticCredentialsProvider;
 import com.amazonaws.auth.BasicAWSCredentials;
